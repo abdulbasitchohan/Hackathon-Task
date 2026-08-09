@@ -1,0 +1,34 @@
+{
+  "name": "ai-fitness-coach",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/pose": "^0.5.1675469404",
+    "@remixicon/react": "^4.9.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "@tensorflow-models/pose-detection": "^2.0.0",
+    "@tensorflow/tfjs": "^4.15.0",
+    "axios": "^1.6.0",
+    "chart.js": "^4.4.0",
+    "date-fns": "^2.30.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.0",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.20.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0"
+  }
+}

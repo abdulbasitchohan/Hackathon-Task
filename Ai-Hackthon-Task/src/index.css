@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gold: #FFD700;
+  --gold-dark: #DAA520;
+  --gold-light: #FFE44D;
+  --black: #0a0a0a;
+  --black-light: #1a1a1a;
+  --black-medium: #2a2a2a;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--black);
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
